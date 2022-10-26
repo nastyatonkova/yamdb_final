@@ -1,3 +1,6 @@
+# yamdb_final
+![yamdb workflow](https://github.com/nastyatonkova/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+178.154.202.65
 
 ## YaMDb Service
 
@@ -19,8 +22,8 @@ The list of categories can be expanded by the administrator.
 
 Clone the repository and go to it on the command line:
 ```sh
-git clone git@github.com:nastyatonkova/infra_sp2.git
-cd infra_sp2
+git clone git@github.com:nastyatonkova/yamdb_final.git
+cd yamdb_final
 ```
 
 Then go to the infra_sp2/infra folder and create there a .env file with 
@@ -241,9 +244,7 @@ Example of a successful response:
 ```
  
 ## License
-**Prepared by the development team: 
+**Prepared by team: 
 
-Ivan Maksimov [GitHub Profile](https://github.com/Ivan-Maksimov), 
-Petr Buikin [GitHub Profile](https://github.com/nikpup), 
 Anastasiia Tonkova [GitHub Profile](https://github.com/nastyatonkova)
 **
