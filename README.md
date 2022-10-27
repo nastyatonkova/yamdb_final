@@ -26,7 +26,7 @@ git clone git@github.com:nastyatonkova/yamdb_final.git
 cd yamdb_final
 ```
 
-Then go to the infra_sp2/infra folder and create there a .env file with 
+Then go to the yamdb_final/infra folder and create there a .env file with 
 environment variables needed for the application to work.
 ```
 cd infra/
@@ -45,7 +45,7 @@ SECRET_KEY=key
 
 The next step is to run docker-compose: 
 ```
-docker-compose up -d
+sudo docker-compose up -d --build
 ```
 The necessary applications will be created and run in the background 
 containers (db, web, nginx).
@@ -53,9 +53,9 @@ containers (db, web, nginx).
 Then you have to perform migrations inside the web container, create 
 superuser and build statics:
 ```
-docker-compose exec web python manage.py migrate
-docker-compose exec web python manage.py createsuperuser
-docker-compose exec web python manage.py collectstatic --no-input 
+sudo docker-compose exec web python manage.py migrate
+sudo docker-compose exec web python manage.py createsuperuser
+sudo docker-compose exec web python manage.py collectstatic --no-input
 ```
 After that the project should be available at http://localhost/. 
 
