@@ -64,7 +64,7 @@ After that the project should be available at http://localhost/.
 You need to go to http://localhost/admin/, log in and make entries 
 into the database through the admin panel.
 
-You can create a backup copy of the database with the command
+You can create a backup copy of the database with the command.
 ```
 docker-compose exec web python manage.py dumpdata > fixtures.json 
 ```
