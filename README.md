@@ -244,7 +244,7 @@ Example of a successful response:
 ```
  
 ## License
-**Prepared by team: 
+**Prepared by: 
 
 Anastasiia Tonkova [GitHub Profile](https://github.com/nastyatonkova)
 **
